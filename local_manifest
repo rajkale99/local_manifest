@@ -8,6 +8,7 @@
                 fetch="https://github.com/project-legionos" />
 
         <remove-project name="packages/apps/LegionSettings" />
+        <remove-project name="packages/apps/Settings" />
         <remove-project name="frameworks/base" />
         <remove-project name="vendor/LegionParts" />
         <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="led" revision="11" clone-depth="1" />
@@ -16,7 +17,8 @@
         <project path="vendor/xiaomi/sm6250-common" name="vendor_xiaomi_sm6250-common" remote="led" revision="11" clone-depth="1" />
         <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="led" revision="11" clone-depth="1" />
         <project path="packages/apps/LegionSettings" name="packages_apps_LegionSettings" remote="legion" revision="3.12" />
-        <project path="frameworks/base" name="frameworks_base" remote="legion" revision="3.12" />
+        <project path="frameworks/base" name="frameworks_base" remote="legion" revision="monet" />
         <project path="vendor/LegionParts" name="vendor_LegionParts" remote="legion" revision="3.12" />
-
+        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="legion" revision="3.12" />
+   
 </manifest>
